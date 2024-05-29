@@ -58,7 +58,7 @@
   margin-bottom: 24px;
 }
 .section-title h2:after {
-  content: '';
+  content: "";
   width: 48px;
   height: 3px;
   display: block;
@@ -80,7 +80,7 @@
 }
 .section-sep:before,
 .section-sep:after {
-  content: '';
+  content: "";
   width: 1320px;
   height: 1px;
   background: #dadada;
@@ -118,7 +118,7 @@
   background: #e8e9f3;
   color: #fff;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 .btn-main:hover {
@@ -130,7 +130,7 @@
   background: transparent;
   color: #fff;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   border: 2px solid #e8e9f3;
 }
@@ -139,7 +139,7 @@
   color: #fff;
 }
 .btn-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 /*navbar fixed styling */
@@ -154,7 +154,7 @@
   3. General Style 
 ************************************************************/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #615978;
 }
@@ -192,7 +192,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222;
 }
 /* Dark Mode Styling */
@@ -245,7 +245,7 @@ h6 {
 .site-header a {
   color: #fff;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 .site-header a:hover,
@@ -259,7 +259,7 @@ h6 {
   margin-bottom: 0;
 }
 .site-header .nav-social:before {
-  content: '';
+  content: "";
   width: 1px;
   height: 18px;
   display: inline-block;
@@ -575,7 +575,7 @@ h6 {
 }
 .portfolio-section .box:before,
 .portfolio-section .box:after {
-  content: '';
+  content: "";
   background: #7e7e7e;
   height: 50%;
   width: 100%;
@@ -828,7 +828,7 @@ h6 {
   margin-bottom: 12px;
 }
 .resume-section h4 span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #615978;
   font-size: 70%;
   float: right;
@@ -868,7 +868,7 @@ h6 {
   position: relative;
 }
 .resume-section .icon-box:after {
-  content: '';
+  content: "";
   width: 1px;
   height: 200px;
   background: #dadada;
@@ -900,7 +900,7 @@ h6 {
   border: 1px solid #e0e0e0;
 }
 .testimonial-section .item-wrapper:after {
-  content: '';
+  content: "";
   width: 90%;
   height: 90%;
   position: absolute;
@@ -921,7 +921,7 @@ h6 {
   display: block;
   margin-top: 8px;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #948daa;
 }
 .testimonial-section .quote-icon {
@@ -962,7 +962,9 @@ h6 {
 .dark-mode .testimonial-section .swiper-pagination-bullet {
   background: #615978;
 }
-.dark-mode .testimonial-section .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.dark-mode
+  .testimonial-section
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #d7d9ea;
 }
 /***********************************************************
@@ -991,7 +993,7 @@ h6 {
 }
 .blog-section .post-meta li a {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   text-transform: initial;
   transition: 0.3s;
@@ -1008,7 +1010,7 @@ h6 {
   overflow: hidden;
 }
 .blog-section .image-wrapper:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1249,7 +1251,7 @@ h6 {
   font-size: 24px;
 }
 .contact-section a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #615978;
   text-transform: initial;
   transition: 0.3s;
@@ -1289,7 +1291,7 @@ h6 {
   box-shadow: none;
 }
 .contact-section button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   background: #222;
   color: #fff;
@@ -1351,7 +1353,7 @@ h6 {
   z-index: 1;
 }
 .site-footer:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1435,11 +1437,58 @@ h6 {
   margin-bottom: 0;
 }
 .site-footer .footer-bottom ul a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #b0aac0;
   text-transform: capitalize;
   font-size: 16px;
 }
+
+/*TAMBAHAN*/
+
+.nilsbrown-footer-section {
+  background: #212228;
+  padding: 75px 0 60px 0;
+  width: 100%;
+}
+.nilsbrown-footer-social-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0;
+}
+.nilsbrown-footer-social-link li {
+  display: inline-block;
+  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3 ease-in-out;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 12px;
+  margin-left: 5px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nilsbrown-footer-social-link li i {
+  color: #ffffff;
+}
+.nilsbrown-footer-section h5 {
+  font-family: "Syne", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.nilsbrown-footer-section p {
+  color: #868a9b;
+}
+
+/*AKHIR TAMBAHAN*/
+
 /***********************************************************
   18. Libraries
 ************************************************************/
@@ -1470,7 +1519,7 @@ h6 {
   height: 35px;
   margin: 0 10px 0 10px;
   border-radius: 50%;
-  background: #FFF;
+  background: #fff;
   -webkit-animation: dot-dot-dot 1.4s linear infinite;
   animation: dot-dot-dot 1.4s linear infinite;
 }
